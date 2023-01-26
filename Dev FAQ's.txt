@@ -1,0 +1,106 @@
+Experience with Git
+Ansible (basic)
+Jenkins shared library structure
+scripted and descriptive pipeline
+Jenkins knowledge
+Terraform (basic)
+Google cloud
+
+Jenkins Shared Library:
+what is scripted pipeline - Begins with command NODE, uses GROOVY code without need for additional steps
+what is declarative pipeline - Begins with command PIPELINE, Break down stages into multi-step
+jenkins pipeline as a code - 
+what is difference between declarive and scripted?
+how to upgrade terraform version, what command use to upgrade terraform version?
+what is terraform module?
+what kind of pipeline handled
+how to differentiate between scripted and declarative pipeline
+the directory where will you store your library?
+what is directory structure for shared library
+how to call variable in jenkins file/pipeline from shared library
+how to push configuration changes to your pod?
+
+Ansible:
+how did you manage to create playbook? - ANSWER: vi <file name>.yml
+what is purpose of handler?---restart server etc - ANSWER: To restart after a change has been done only if a notify command is mentioned
+inventory used to manage host etc. 
+how do you manage variables and precedence? VARS 
+iterpolation and idempotant in Ansible? ANSWER: Idempontency is present in Ad hoc commands, it will keep executing the repeated commands if executed already. 
+how jenkins job trigger automatically
+1)polling method 2)commit/push based - Answer: (SCM Source code management) polling interval to build periodically ***** (mins/hours/days/month/week)
+based on webhook the automatic trigger happened
+
+
+AWS:
+what is autoscaling?
+Answer: AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.
+
+what is purpose of S3 bucket?
+Answer: Simple Storage Service (S3)
+
+how you manage your secerets in jenkins?
+Jenkins allow to save secret, using vault - ansible-vault create<file name>.yml
+
+1)Compute Engine - ANSWER: Compute Engine is a computing and hosting service that lets you create and run virtual machines on Google infrastructure.
+2)What type of storage in GCP
+GCP:3 types of storage ( N/W file storage, Block  storage, Cloud storage)
+what is difference b/w regional and multiregional - Regional defines to a particular geographical region/ Multi-regional is across many regions.
+what is CDN - ANSWER: Content delivery network, provides faster delivery of content to front end customers
+what is diff b/w static and block storage
+can we use storage(like S3) as hard drive for VM?
+
+Load balancer:external(https) and internal(http,tcp)
+what is difference b/w frontend and backend load balancing?
+what are the health check
+
+Terraform:
+terraform init--dowload and install all dependency required for GCP to execute, 
+what is modules in terraform?
+what is terraform variable?--variable.tf
+used backend in terraform
+what is stat file in terraform
+where do you save the state file---save in same terraform dir---but better to save in different dir---but
+if infrastructure created, can we change infrastructure using Terraform--yes
+call the same state file and using terraform plan we can
+tfvar is used for taking input from user
+main.tf used for main code and tfvar define variable
+var.tf is used for declare variable
+what is workspace in terraform?
+
+GCP:
+1)What is managed Instance Group? - 
+
+Answer: Managed instance group (MIG) is a group of virtual machine (VM) instances that you treat as a single entity
+how to set parameter in MIG?
+ANSWER: MIG services, including: autoscaling, autohealing, regional (multiple zone) deployment, and automatic updating.
+
+2)what is microservices?
+what is benefit of microservices on top of monolithik?
+
+3)what type of LB in GCP? - 
+Load balancers are managed services on GCP that distribute traffic across multiple instances of your application. (3 types HTTP Load Balancer, the SSL Proxy & TCP Proxy)
+a)Internal LB
+b)External LB
+
+4)if one of node went down what will happen?
+LB will direct the traffic to another instance
+is down Instance  came up  ?
+
+5)what is diff b/w internal and external LB in respect to GCP
+
+internal LB will be distributed under the same VPC network, it is regional
+external LB ssl proxy, http
+
+
+Internal Load balancer is used for services which are for internal consumption only and hence doesn't need to direct Web traffic. 
+External Load balancers are for regulating web traffic.
+
+6)how to create instance in compute engine
+a)using terraform
+b)using console
+7)what kind of information/requirement needed for build infrastructure
+a)which region need to deploy
+b)high/low memory, and high/low CPU
+c)in case of migrating from on premise to Cloud 
+8)which kind of linux platform used/experience
+Jenkins Shared Library, Ansible, Terraform, Git and GCP

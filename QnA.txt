@@ -1,0 +1,49 @@
+1.Retrospective sprint meeting
+2. Burn down chat
+3. Defect/Bug clustering
+4. Pesticide Paradox
+5. Seven Principles of testing
+6. ISTQB - International Software Testing Qualifications Board
+
+222300002752 - lic
+
+
+1.GREP (global regular expression print) grep <search X> <filename> - To search a string/particular pattern of characters in a group of files and displays the line that contains the pattern
+
+2.TCP -transmission control protocol (Enables application programs and computing devices to exchange messages over a network)
+
+3.SNMP - Simple network management protocol 
+
+4.CHMOD - change mode of a file (read,write,execute)
+
+5.SUBNET mask- A subnet mask is used to divide an IP address into two parts. One part identifies the host (computer), 
+the other part identifies the network to which it belongs
+
+6.API - It is done to verify if an API fulfills its expected functionality (Send request with necessary input & Get the response with output)
+
+7.WMI -
+8.EBS - Elastic block storage 
+
+9. HTTP vs HTTPS - Https uses http with encryption & verification (TLS/SSL). https is more secured than http
+
+10.AWS AMI - Amazon machine images (Its a template that contains the s/w configs required to launch an instance)
+
+11. Types of Load balancers - Application LB/ Network LB/ Gateway LB
+
+12. SED command in Linux (sed 's/x/y/' <filename>)  Replacing a text/ edit files without opening them. Here is replaces X with Y in first occurences
+
+13. HEAD command in linux (head -n <filename>) - Fetches you the first 'n' lines specified from the file
+
+14. What is CD /OPT: OPT is a directory for installing 3rd party application software, that is not a part of the same
+
+15. What is ETC in Linux: It is the directory where all the configuration files are present
+
+16. What is clean install goals in Jenkins: Clean means incase any previous build cache information is present, it will clean it. Install means Executing all Maven packages
+and perform all the steps required before it.
+
+17. java -jar agent.jar -jnlpUrl http:///computer/Slave%20agent1/jenkins-agent.jnlp -secret b1841b880b5058cfe8e5630f89146f14fa237a5e1fb9e95c24d108cf6fc6848c -workDir "/opt/build"
+
+18. NameSpace in Kubernetes - Mechanism of isolating groups of resources inside a single cluster
+
+
+1800-572-0473 - option 8 - 'ASKHR'
